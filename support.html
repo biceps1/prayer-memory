@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Prayer Memory</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #1a5c3a 0%, #2d8a5e 100%);
+            border-radius: 18px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(26, 92, 58, 0.3);
+        }
+        .app-icon svg {
+            width: 50px;
+            height: 50px;
+            fill: white;
+        }
+        h1 {
+            font-size: 2.2em;
+            color: #1a5c3a;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        .content {
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #1a5c3a;
+            font-size: 1.4em;
+            margin: 30px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e8f5e9;
+        }
+        h2:first-child {
+            margin-top: 0;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+        ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 10px;
+            color: #444;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            padding: 30px;
+            border-radius: 12px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .contact-box h3 {
+            color: #1a5c3a;
+            margin-bottom: 15px;
+        }
+        .email-button {
+            display: inline-block;
+            background: #1a5c3a;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .email-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(26, 92, 58, 0.3);
+            text-decoration: none;
+        }
+        .faq-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+        .faq-item h3 {
+            color: #1a5c3a;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .faq-item p {
+            margin-bottom: 0;
+            color: #555;
+        }
+        a {
+            color: #1a5c3a;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #888;
+            font-size: 0.9em;
+        }
+        .platforms {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .platform-badge {
+            background: #fff;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            color: #666;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            padding: 8px 16px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            display: inline-block;
+        }
+        nav a.active {
+            background: #1a5c3a;
+            color: #fff;
+        }
+        .tip-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px 20px;
+            border-radius: 0 12px 12px 0;
+            margin: 20px 0;
+        }
+        .tip-box p {
+            margin: 0;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">Privacy Policy</a>
+            <a href="support.html" class="active">Support</a>
+        </nav>
+        
+        <header>
+            <div class="app-icon">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+            </div>
+            <h1>Support</h1>
+            <p class="subtitle">Prayer Memory - Your Prayer Companion</p>
+            <div class="platforms">
+                <span class="platform-badge">📱 iPhone</span>
+                <span class="platform-badge">⌚ Apple Watch</span>
+            </div>
+        </header>
+
+        <div class="content">
+            <h2>How Can We Help?</h2>
+            <p>We're here to help you get the most out of Prayer Memory. Whether you have questions, feedback, or need assistance, we'd love to hear from you.</p>
+
+            <div class="contact-box">
+                <h3>📧 Contact Us</h3>
+                <p>For support inquiries, feedback, or suggestions:</p>
+                <a href="mailto:motionpexelsofficial@gmail.com" class="email-button">Send Email</a>
+            </div>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <h3>How do I calibrate my prayer timing?</h3>
+                <p>Go to the Calibrate section in the app, select the number of rakaas (2, 3, or 4), and pray normally. Tap the screen at the end of each rakaa. The app will record your timing for future guided prayers.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can someone else calibrate for me?</h3>
+                <p>Yes! Another person can hold the device and tap at the end of each rakaa while you pray. This is helpful if you prefer not to interact with the device during prayer.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How does Prayer Mode work?</h3>
+                <p>After calibration, select your prayer type. The app will guide you through each rakaa with a countdown timer based on your calibrated timing. You'll receive haptic feedback when it's time to move to the next rakaa.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What is Manual Count mode?</h3>
+                <p>Manual Count is perfect for Tasbeeh (dhikr) or counting prayers manually. Simply tap to increment the counter. It works independently from the calibration feature.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Does the app work offline?</h3>
+                <p>Yes! Prayer Memory works completely offline. No internet connection is required. All your data stays on your device.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I sync data between iPhone and Apple Watch?</h3>
+                <p>Data syncs automatically between your paired devices when both apps are installed. Make sure both devices are nearby and paired via Bluetooth.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I change the language?</h3>
+                <p>Prayer Memory supports English and Arabic. The app follows your device's language settings. Change your device language in Settings → General → Language & Region.</p>
+            </div>
+
+            <div class="tip-box">
+                <p>💡 <strong>Pro Tip:</strong> Enable Do Not Disturb before praying for an uninterrupted, focused prayer experience.</p>
+            </div>
+
+            <h2>App Information</h2>
+            <ul>
+                <li><strong>Version:</strong> 1.0</li>
+                <li><strong>Platforms:</strong> iPhone (iOS 16+), Apple Watch (watchOS 10+)</li>
+                <li><strong>Languages:</strong> English, Arabic</li>
+                <li><strong>Price:</strong> Free</li>
+            </ul>
+
+            <h2>Response Time</h2>
+            <p>We typically respond to support inquiries within 24-48 hours. Thank you for your patience!</p>
+        </div>
+
+        <footer>
+            <p>© 2026 Prayer Memory. All rights reserved.</p>
+            <p style="margin-top: 10px;">Designed for the Muslim community. 🕌</p>
+            <p style="margin-top: 15px;"><a href="index.html">Privacy Policy</a></p>
+        </footer>
+    </div>
+</body>
+</html>
